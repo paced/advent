@@ -1,26 +1,8 @@
-# base
+# Advent of Code
 
-## Introduction
-
-Base template for all repositories without a better template.
-
-## Rationale
-
-> See the [features document](FEATURES.md) for more specific information about the purpose of this software.
-
-Describe the "why" of your GitHub project here.
+This is my personal solutions repository for the Advent of Code problems I've done.
 
 ## Build Instructions
 
-Describe exactly how to build this project from scratch. Keep in mind platform-specific instructions.
-
-## Deploy
-
-Describe at least how _you_ are deploying this project so you can do it again.
-
-## To-Do
-
-- [ ] **Check the license!**
-- [ ] Finish/edit this README file.
-- [ ] Familiarise yourself with [Inkling Flow](https://github.com/teaminkling/inkling-flow).
-- [ ] Add/edit any and all badges associated with this project.
+Everything should be doable using the Python 3 standard library. As a result, you should be able to
+run `python run.py <year> <problem>` to print a solution.
