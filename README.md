@@ -7,6 +7,8 @@ This is my personal solutions repository for the Advent of Code problems I've do
 Everything should be doable using the Python 3 standard library. As a result, you should be able to
 run `python run.py <year> <problem>` to print a solution.
 
+Run `DEBUG=1 python run.py` to run everything at the same time.
+
 ## Philosophy
 
 You will find shorter and faster solutions elsewhere. Here, you will find solutions that are:
