@@ -4,14 +4,20 @@ from argparse import ArgumentParser, Namespace
 from os import environ
 from typing import Callable, Dict, Tuple
 
-from advent_2020.solution_01_1 import run_2020_01_1, run_2020_01_2
-from advent_2020.solution_01_2 import run_2020_02_1, run_2020_02_2
+from advent_2020.solution_01 import run_2020_01_1, run_2020_01_2
+from advent_2020.solution_02 import run_2020_02_1, run_2020_02_2
+from advent_2020.solution_03 import run_2020_03_1, run_2020_03_2
+from advent_2020.solution_04 import run_2020_04_1, run_2020_04_2
 
 SOLUTION_MAP: Dict[Tuple[str, str, str], Callable] = {
     ("2020", "1", "1"): run_2020_01_1,
     ("2020", "1", "2"): run_2020_01_2,
     ("2020", "2", "1"): run_2020_02_1,
     ("2020", "2", "2"): run_2020_02_2,
+    ("2020", "3", "1"): run_2020_03_1,
+    ("2020", "3", "2"): run_2020_03_2,
+    ("2020", "4", "1"): run_2020_04_1,
+    ("2020", "4", "2"): run_2020_04_2,
 }
 """A mapping from a user input to a function to call."""
 
