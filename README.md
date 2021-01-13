@@ -1,5 +1,7 @@
 # Advent of Code
 
+> This repository does not contain all of the solutions. I do it when I get bored.
+
 This is my personal solutions repository for the Advent of Code problems I've done.
 
 ## Build Instructions
